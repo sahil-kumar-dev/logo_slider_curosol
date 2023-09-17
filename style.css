@@ -37,3 +37,13 @@
         transform:translateX(-100%);
     }
 }
+
+@media screen and (max-width:468px) {
+    .logo-slides img{
+        width: 50px;
+        margin: 0 5px;
+    }
+    .logo::before,.logo::after{
+        width: 80px;
+    }
+}
